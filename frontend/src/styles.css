@@ -1,0 +1,32 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+body { margin: 0; background: #0b0c10; color: #eaeaea; }
+input, button { padding: 10px; border-radius: 10px; border: 1px solid #2a2e3a; background: #12141b; color: #eaeaea; }
+button { cursor: pointer; }
+button.secondary { background: transparent; }
+label { font-size: 12px; opacity: .8; margin-top: 8px; display: block; }
+h1, h2 { margin: 0 0 12px 0; }
+.container { max-width: 900px; margin: 40px auto; padding: 0 16px; }
+.card { background: #0f1118; border: 1px solid #232635; border-radius: 16px; padding: 14px; margin-bottom: 12px; }
+.row { display: flex; gap: 10px; margin-top: 10px; }
+.error { color: #ff6b6b; }
+.hint { opacity: .7; }
+
+.layout { display: grid; grid-template-columns: 340px 1fr; height: 100vh; }
+.sidebar { border-right: 1px solid #232635; padding: 14px; overflow: auto; }
+.sidebarHeader { display:flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.chatList { display: flex; flex-direction: column; gap: 8px; }
+.chatItem { text-align: left; padding: 12px; border-radius: 14px; border: 1px solid #232635; background: #0f1118; }
+.chatItem.active { outline: 2px solid #3b82f6; }
+.chatTitle { font-weight: 600; }
+.chatId { opacity: .6; font-size: 12px; margin-top: 4px; }
+
+.main { padding: 14px; }
+.chatWindow { height: calc(100vh - 28px); display: grid; grid-template-rows: auto 1fr auto; border: 1px solid #232635; border-radius: 18px; overflow: hidden; background: #0f1118; }
+.chatTop { padding: 14px; border-bottom: 1px solid #232635; }
+.muted { opacity: .7; font-weight: 400; font-size: 14px; }
+.chatMessages { padding: 14px; overflow: auto; }
+.msg { margin-bottom: 12px; }
+.meta { display:flex; justify-content: space-between; opacity: .7; font-size: 12px; margin-bottom: 6px; }
+.bubble { padding: 10px 12px; background: #12141b; border: 1px solid #232635; border-radius: 14px; }
+.chatInput { display:flex; gap: 10px; padding: 14px; border-top: 1px solid #232635; }
+.chatInput input { flex: 1; }
