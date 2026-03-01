@@ -84,5 +84,5 @@ docker-compose.yml
 
 ## Author
 
-Danil Sazonov  
+Danila Denisov
 Junior Python Backend / Full-Stack Developer
